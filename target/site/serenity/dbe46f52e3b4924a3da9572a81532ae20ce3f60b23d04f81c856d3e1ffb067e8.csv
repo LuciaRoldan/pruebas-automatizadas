@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Si me quiero loggear con un nombre de usuario incorrecto, no puedo","SUCCESS","2019-06-03T12:03:00.954-03:00[America/Argentina/Buenos_Aires]","0.0","1.55"
+"Login","Si me quiero loggear con una pass incorrecta, no puedo","SUCCESS","2019-06-03T12:03:02.515-03:00[America/Argentina/Buenos_Aires]","0.0","1.32"
+"Login","Si me quiero loggear con un usuario existente puedo","SUCCESS","2019-06-03T12:03:03.842-03:00[America/Argentina/Buenos_Aires]","0.0","1.35"

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Registrarme y darme de alta en el sitio","Si me quiero registrar con un usuario existente, no puedo","SUCCESS","2019-06-03T12:03:05.201-03:00[America/Argentina/Buenos_Aires]","0.0","1.39"
+"Registrarme y darme de alta en el sitio","Si me quiero registrar con un usuario inexistente puedo","SUCCESS","2019-06-03T12:03:06.595-03:00[America/Argentina/Buenos_Aires]","0.0","1.01"
+"Registrarme y darme de alta en el sitio","Si me quiero registrar con un usuario invalido, no puedo","SUCCESS","2019-06-03T12:03:07.615-03:00[America/Argentina/Buenos_Aires]","0.0","1.88"

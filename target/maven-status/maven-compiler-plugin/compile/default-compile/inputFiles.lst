@@ -1,0 +1,13 @@
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/repositorios/RepositorioUsuarioImpl.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/repositorios/RepositorioUsuario.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/modelo/UsuarioExistente.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/servicios/ServicioMail.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/tragamonedas/Tambor.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/controladores/ControladorRegistrarme.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/modelo/Usuario.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/tragamonedas/Tragamonedas.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/controladores/ControladorApiLogin.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/servicios/ServicioMailImpl.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/servicios/ServicioUsuarioImpl.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/controladores/ControladorLogin.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/main/java/ar/com/grupoesfera/pruebas/servicios/ServicioUsuario.java

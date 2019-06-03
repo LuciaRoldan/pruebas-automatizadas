@@ -1,0 +1,12 @@
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/controladores/ControladorLoginTest.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/servicios/ServicioUsuarioTest.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/controladores/ControladorRegistrarmeTest.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/aceptacion/BasicoAceptacionIT.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/aceptacion/cucumber/TestDeAceptacionCucumber.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/aceptacion/TestDeAceptacion.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/tragamonedas/TamborTest.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/tragamonedas/TragamonedasTest.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/aceptacion/cucumber/RegistrarmeCucumber.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/persistencia/RepositorioUsuarioTest.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/aceptacion/cucumber/RunTestAceptacionCucumberIT.java
+/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/src/test/java/ar/com/grupoesfera/pruebas/SpringTest.java

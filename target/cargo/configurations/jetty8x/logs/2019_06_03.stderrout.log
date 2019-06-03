@@ -1,0 +1,401 @@
+2019-06-03 12:02:48.749:INFO:oejs.Server:jetty-8.1.17.v20150415
+2019-06-03 12:02:48.766:INFO:oejdp.ScanningAppProvider:Deployment monitor /home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/cargo/configurations/jetty8x/webapps at interval 1
+2019-06-03 12:02:48.768:INFO:oejd.DeploymentManager:Deployable added: /home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/cargo/configurations/jetty8x/webapps/cargocpc.war
+2019-06-03 12:02:48.789:INFO:oejw.WebInfConfiguration:Extract jar:file:/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/cargo/configurations/jetty8x/webapps/cargocpc.war!/ to /tmp/jetty-0.0.0.0-8080-cargocpc.war-_cargocpc-any-/webapp
+2019-06-03 12:02:48.843:INFO:oejpw.PlusConfiguration:No Transaction manager found - if your webapp requires one, please configure one.
+2019-06-03 12:02:49.042:INFO:oejdp.ScanningAppProvider:Deployment monitor /home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/cargo/configurations/jetty8x/contexts at interval 1
+2019-06-03 12:02:49.042:INFO:oejd.DeploymentManager:Deployable added: /home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/cargo/configurations/jetty8x/contexts/registrarme.xml
+2019-06-03 12:02:49.052:INFO:oejw.WebInfConfiguration:Extract jar:file:/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/registrarme-0.0.1-SNAPSHOT.war!/ to /home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/registrarme-0.0.1-SNAPSHOT
+2019-06-03 12:02:49.696:INFO:oejpw.PlusConfiguration:No Transaction manager found - if your webapp requires one, please configure one.
+2019-06-03 12:02:50.292:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/tool/schema/internal/AbstractSchemaMigrator.class
+java.lang.ArrayIndexOutOfBoundsException: 54089
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.eclipse.jetty.annotations.AnnotationParser.scanClass(AnnotationParser.java:898)
+	at org.eclipse.jetty.annotations.AnnotationParser$2.processEntry(AnnotationParser.java:857)
+	at org.eclipse.jetty.webapp.JarScanner.matched(JarScanner.java:161)
+	at org.eclipse.jetty.util.PatternMatcher.matchPatterns(PatternMatcher.java:100)
+	at org.eclipse.jetty.util.PatternMatcher.match(PatternMatcher.java:82)
+	at org.eclipse.jetty.webapp.JarScanner.scan(JarScanner.java:84)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:869)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:884)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.parseWebInfLib(AnnotationConfiguration.java:422)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.configure(AnnotationConfiguration.java:120)
+	at org.eclipse.jetty.webapp.WebAppContext.configure(WebAppContext.java:468)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1237)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:39)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:494)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:141)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:145)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:56)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:615)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:540)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:403)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:121)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:555)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:230)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:81)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:96)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1274)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:473)
+	at org.eclipse.jetty.start.Main.start(Main.java:615)
+	at org.eclipse.jetty.start.Main.main(Main.java:96)
+2019-06-03 12:02:50.308:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/query/internal/AbstractProducedQuery.class
+java.lang.ArrayIndexOutOfBoundsException: 9578
+	at org.objectweb.asm.ClassReader.readClass(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.eclipse.jetty.annotations.AnnotationParser.scanClass(AnnotationParser.java:899)
+	at org.eclipse.jetty.annotations.AnnotationParser$2.processEntry(AnnotationParser.java:857)
+	at org.eclipse.jetty.webapp.JarScanner.matched(JarScanner.java:161)
+	at org.eclipse.jetty.util.PatternMatcher.matchPatterns(PatternMatcher.java:100)
+	at org.eclipse.jetty.util.PatternMatcher.match(PatternMatcher.java:82)
+	at org.eclipse.jetty.webapp.JarScanner.scan(JarScanner.java:84)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:869)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:884)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.parseWebInfLib(AnnotationConfiguration.java:422)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.configure(AnnotationConfiguration.java:120)
+	at org.eclipse.jetty.webapp.WebAppContext.configure(WebAppContext.java:468)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1237)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:39)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:494)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:141)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:145)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:56)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:615)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:540)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:403)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:121)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:555)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:230)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:81)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:96)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1274)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:473)
+	at org.eclipse.jetty.start.Main.start(Main.java:615)
+	at org.eclipse.jetty.start.Main.main(Main.java:96)
+2019-06-03 12:02:50.310:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/query/internal/QueryParameterBindingsImpl.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.313:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/query/criteria/internal/CriteriaBuilderImpl.class
+java.lang.ArrayIndexOutOfBoundsException: 19532
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.eclipse.jetty.annotations.AnnotationParser.scanClass(AnnotationParser.java:899)
+	at org.eclipse.jetty.annotations.AnnotationParser$2.processEntry(AnnotationParser.java:857)
+	at org.eclipse.jetty.webapp.JarScanner.matched(JarScanner.java:161)
+	at org.eclipse.jetty.util.PatternMatcher.matchPatterns(PatternMatcher.java:100)
+	at org.eclipse.jetty.util.PatternMatcher.match(PatternMatcher.java:82)
+	at org.eclipse.jetty.webapp.JarScanner.scan(JarScanner.java:84)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:869)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:884)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.parseWebInfLib(AnnotationConfiguration.java:422)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.configure(AnnotationConfiguration.java:120)
+	at org.eclipse.jetty.webapp.WebAppContext.configure(WebAppContext.java:468)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1237)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:39)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:494)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:141)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:145)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:56)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:615)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:540)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:403)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:121)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:555)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:230)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:81)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:96)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1274)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:473)
+	at org.eclipse.jetty.start.Main.start(Main.java:615)
+	at org.eclipse.jetty.start.Main.main(Main.java:96)
+2019-06-03 12:02:50.320:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/query/criteria/internal/expression/SearchedCaseExpression.class
+java.lang.ArrayIndexOutOfBoundsException: 2164
+	at org.objectweb.asm.ClassReader.readClass(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.eclipse.jetty.annotations.AnnotationParser.scanClass(AnnotationParser.java:899)
+	at org.eclipse.jetty.annotations.AnnotationParser$2.processEntry(AnnotationParser.java:857)
+	at org.eclipse.jetty.webapp.JarScanner.matched(JarScanner.java:161)
+	at org.eclipse.jetty.util.PatternMatcher.matchPatterns(PatternMatcher.java:100)
+	at org.eclipse.jetty.util.PatternMatcher.match(PatternMatcher.java:82)
+	at org.eclipse.jetty.webapp.JarScanner.scan(JarScanner.java:84)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:869)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:884)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.parseWebInfLib(AnnotationConfiguration.java:422)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.configure(AnnotationConfiguration.java:120)
+	at org.eclipse.jetty.webapp.WebAppContext.configure(WebAppContext.java:468)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1237)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:39)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:494)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:141)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:145)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:56)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:615)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:540)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:403)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:121)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:555)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:230)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:81)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:96)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1274)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:473)
+	at org.eclipse.jetty.start.Main.start(Main.java:615)
+	at org.eclipse.jetty.start.Main.main(Main.java:96)
+2019-06-03 12:02:50.323:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/query/criteria/internal/expression/SimpleCaseExpression.class
+java.lang.ArrayIndexOutOfBoundsException: 57088
+	at org.objectweb.asm.ClassReader.readClass(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.eclipse.jetty.annotations.AnnotationParser.scanClass(AnnotationParser.java:899)
+	at org.eclipse.jetty.annotations.AnnotationParser$2.processEntry(AnnotationParser.java:857)
+	at org.eclipse.jetty.webapp.JarScanner.matched(JarScanner.java:161)
+	at org.eclipse.jetty.util.PatternMatcher.matchPatterns(PatternMatcher.java:100)
+	at org.eclipse.jetty.util.PatternMatcher.match(PatternMatcher.java:82)
+	at org.eclipse.jetty.webapp.JarScanner.scan(JarScanner.java:84)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:869)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:884)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.parseWebInfLib(AnnotationConfiguration.java:422)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.configure(AnnotationConfiguration.java:120)
+	at org.eclipse.jetty.webapp.WebAppContext.configure(WebAppContext.java:468)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1237)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:39)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:494)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:141)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:145)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:56)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:615)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:540)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:403)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:121)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:555)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:230)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:81)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:96)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1274)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:473)
+	at org.eclipse.jetty.start.Main.start(Main.java:615)
+	at org.eclipse.jetty.start.Main.main(Main.java:96)
+2019-06-03 12:02:50.350:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/hql/internal/HolderInstantiator.class
+java.lang.ArrayIndexOutOfBoundsException: 154
+	at org.objectweb.asm.ClassReader.readUTF8(Unknown Source)
+	at org.objectweb.asm.ClassReader.readClass(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.eclipse.jetty.annotations.AnnotationParser.scanClass(AnnotationParser.java:899)
+	at org.eclipse.jetty.annotations.AnnotationParser$2.processEntry(AnnotationParser.java:857)
+	at org.eclipse.jetty.webapp.JarScanner.matched(JarScanner.java:161)
+	at org.eclipse.jetty.util.PatternMatcher.matchPatterns(PatternMatcher.java:100)
+	at org.eclipse.jetty.util.PatternMatcher.match(PatternMatcher.java:82)
+	at org.eclipse.jetty.webapp.JarScanner.scan(JarScanner.java:84)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:869)
+	at org.eclipse.jetty.annotations.AnnotationParser.parse(AnnotationParser.java:884)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.parseWebInfLib(AnnotationConfiguration.java:422)
+	at org.eclipse.jetty.annotations.AnnotationConfiguration.configure(AnnotationConfiguration.java:120)
+	at org.eclipse.jetty.webapp.WebAppContext.configure(WebAppContext.java:468)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1237)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:39)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:494)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:141)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:145)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:56)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:615)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:540)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:403)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:121)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:555)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:230)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:81)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:96)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1274)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:473)
+	at org.eclipse.jetty.start.Main.start(Main.java:615)
+	at org.eclipse.jetty.start.Main.main(Main.java:96)
+2019-06-03 12:02:50.353:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/hql/internal/ast/tree/FromElement.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.382:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/loader/custom/CustomLoader.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.390:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/procedure/internal/ProcedureOutputsImpl$ProcedureCurrentReturnState.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.392:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/internal/SessionImpl.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.399:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/internal/SessionFactoryImpl.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.400:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/internal/AbstractSharedSessionContract.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.401:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/internal/CacheImpl.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.423:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/metamodel/internal/MetamodelImpl.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.453:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/proxy/pojo/bytebuddy/ByteBuddyProxyFactory.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.453:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/proxy/pojo/javassist/JavassistProxyFactory.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.494:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/cfg/IndexOrUniqueKeySecondPass.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.503:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/tuple/TimestampGenerators.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.507:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/bytecode/enhance/spi/interceptor/LazyAttributesMetadata.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.514:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/result/internal/ResultSetOutputImpl.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.545:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/cache/internal/CollectionCacheInvalidator.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.571:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/boot/spi/SessionFactoryOptions.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.586:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/boot/registry/selector/internal/StrategySelectorImpl.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.588:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/boot/internal/SessionFactoryBuilderImpl.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:50.589:WARN:oeja.AnnotationParser:Problem processing jar entry org/hibernate/boot/internal/SessionFactoryOptionsState.class
+java.lang.ArrayIndexOutOfBoundsException
+2019-06-03 12:02:51.047:INFO:/registrarme:No Spring WebApplicationInitializer types detected on classpath
+2019-06-03 12:02:51.145:INFO:/registrarme:Initializing Spring root WebApplicationContext
+2019-06-03 12:02:51 INFO  ContextLoader:305 - Root WebApplicationContext: initialization started
+2019-06-03 12:02:51 INFO  XmlWebApplicationContext:578 - Refreshing Root WebApplicationContext: startup date [Mon Jun 03 12:02:51 ART 2019]; root of context hierarchy
+2019-06-03 12:02:51 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2019-06-03 12:02:51 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [hibernate-context.xml]
+2019-06-03 12:02:51 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-03 12:02:51 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.hsqldb.jdbcDriver
+2019-06-03 12:02:51 INFO  Version:45 - HHH000412: Hibernate Core {5.2.16.Final}
+2019-06-03 12:02:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-03 12:02:51 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-03 12:02:51 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2019-06-03 12:02:52 INFO  SchemaCreatorImpl:489 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@9918487'
+2019-06-03 12:02:52 INFO  HibernateTransactionManager:357 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@3ef8de39] of Hibernate SessionFactory for HibernateTransactionManager
+2019-06-03 12:02:52 INFO  RequestMappingHandlerMapping:534 - Mapped "{[/login]}" onto public org.springframework.web.servlet.ModelAndView ar.com.grupoesfera.pruebas.controladores.ControladorLogin.irALogin()
+2019-06-03 12:02:52 INFO  RequestMappingHandlerMapping:534 - Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView ar.com.grupoesfera.pruebas.controladores.ControladorLogin.irAHome()
+2019-06-03 12:02:52 INFO  RequestMappingHandlerMapping:534 - Mapped "{[/validar-login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView ar.com.grupoesfera.pruebas.controladores.ControladorLogin.validarLogin(ar.com.grupoesfera.pruebas.modelo.Usuario,javax.servlet.http.HttpServletRequest)
+2019-06-03 12:02:52 INFO  RequestMappingHandlerMapping:534 - Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView ar.com.grupoesfera.pruebas.controladores.ControladorLogin.inicio()
+2019-06-03 12:02:52 INFO  RequestMappingHandlerMapping:534 - Mapped "{[/do-login/{usuario}/{clave}],methods=[GET]}" onto public java.lang.String ar.com.grupoesfera.pruebas.controladores.ControladorApiLogin.doLogin(java.lang.String,java.lang.String)
+2019-06-03 12:02:52 INFO  RequestMappingHandlerMapping:534 - Mapped "{[/crear-usuario/{usuario}/{clave}],methods=[GET]}" onto public java.lang.String ar.com.grupoesfera.pruebas.controladores.ControladorApiLogin.crearUsuario(java.lang.String,java.lang.String) throws java.lang.Exception
+2019-06-03 12:02:52 INFO  RequestMappingHandlerMapping:534 - Mapped "{[/registrarme],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView ar.com.grupoesfera.pruebas.controladores.ControladorRegistrarme.registrarme(ar.com.grupoesfera.pruebas.modelo.Usuario)
+2019-06-03 12:02:52 INFO  RequestMappingHandlerMapping:534 - Mapped "{[/nuevo-usuario],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView ar.com.grupoesfera.pruebas.controladores.ControladorRegistrarme.nuevoUsuario()
+2019-06-03 12:02:52 INFO  RequestMappingHandlerAdapter:539 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Jun 03 12:02:51 ART 2019]; root of context hierarchy
+2019-06-03 12:02:52 INFO  RequestMappingHandlerAdapter:539 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Jun 03 12:02:51 ART 2019]; root of context hierarchy
+2019-06-03 12:02:52 INFO  ContextLoader:345 - Root WebApplicationContext: initialization completed in 1260 ms
+2019-06-03 12:02:52.420:INFO:/registrarme:Initializing Spring FrameworkServlet 'spring'
+2019-06-03 12:02:52 INFO  DispatcherServlet:487 - FrameworkServlet 'spring': initialization started
+2019-06-03 12:02:52 INFO  XmlWebApplicationContext:578 - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Mon Jun 03 12:02:52 ART 2019]; parent: Root WebApplicationContext
+2019-06-03 12:02:52 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-servlet.xml]
+2019-06-03 12:02:52 INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-06-03 12:02:52 INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-06-03 12:02:52 INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/fonts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2019-06-03 12:02:52 INFO  DispatcherServlet:506 - FrameworkServlet 'spring': initialization completed in 42 ms
+2019-06-03 12:02:52.473:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:8080
+2019-06-03 12:02:55 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-03 12:03:11.162:INFO:oejs.Server:Graceful shutdown SelectChannelConnector@0.0.0.0:8080
+2019-06-03 12:03:11.163:INFO:oejs.Server:Graceful shutdown o.e.j.w.WebAppContext{/cargocpc,file:/tmp/jetty-0.0.0.0-8080-cargocpc.war-_cargocpc-any-/webapp/},/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/cargo/configurations/jetty8x/webapps/cargocpc.war
+2019-06-03 12:03:11.163:INFO:oejs.Server:Graceful shutdown o.e.j.w.WebAppContext{/registrarme,file:/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/registrarme-0.0.1-SNAPSHOT/},/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/registrarme-0.0.1-SNAPSHOT.war
+2019-06-03 12:03:12.190:INFO:/registrarme:Destroying Spring FrameworkServlet 'spring'
+2019-06-03 12:03:12 INFO  XmlWebApplicationContext:960 - Closing WebApplicationContext for namespace 'spring-servlet': startup date [Mon Jun 03 12:02:52 ART 2019]; parent: Root WebApplicationContext
+2019-06-03 12:03:12.193:INFO:/registrarme:Closing Spring root WebApplicationContext
+2019-06-03 12:03:12 INFO  XmlWebApplicationContext:960 - Closing Root WebApplicationContext: startup date [Mon Jun 03 12:02:51 ART 2019]; root of context hierarchy
+2019-06-03 12:03:12.205:INFO:oejsl.ELContextCleaner:javax.el.BeanELResolver purged
+2019-06-03 12:03:12.205:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/registrarme,file:/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/registrarme-0.0.1-SNAPSHOT/},/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/registrarme-0.0.1-SNAPSHOT.war
+2019-06-03 12:03:12.208:INFO:oejsl.ELContextCleaner:javax.el.BeanELResolver purged
+2019-06-03 12:03:12.208:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/cargocpc,file:/tmp/jetty-0.0.0.0-8080-cargocpc.war-_cargocpc-any-/webapp/},/home/lu/Projects/lab-pruebas-automatizadas-registrarme--version-alumnos/target/cargo/configurations/jetty8x/webapps/cargocpc.war

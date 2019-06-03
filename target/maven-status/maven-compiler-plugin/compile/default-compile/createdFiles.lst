@@ -1,0 +1,13 @@
+ar/com/grupoesfera/pruebas/controladores/ControladorRegistrarme.class
+ar/com/grupoesfera/pruebas/tragamonedas/Tragamonedas.class
+ar/com/grupoesfera/pruebas/repositorios/RepositorioUsuario.class
+ar/com/grupoesfera/pruebas/servicios/ServicioUsuarioImpl.class
+ar/com/grupoesfera/pruebas/repositorios/RepositorioUsuarioImpl.class
+ar/com/grupoesfera/pruebas/servicios/ServicioMailImpl.class
+ar/com/grupoesfera/pruebas/modelo/UsuarioExistente.class
+ar/com/grupoesfera/pruebas/controladores/ControladorApiLogin.class
+ar/com/grupoesfera/pruebas/servicios/ServicioMail.class
+ar/com/grupoesfera/pruebas/controladores/ControladorLogin.class
+ar/com/grupoesfera/pruebas/modelo/Usuario.class
+ar/com/grupoesfera/pruebas/servicios/ServicioUsuario.class
+ar/com/grupoesfera/pruebas/tragamonedas/Tambor.class

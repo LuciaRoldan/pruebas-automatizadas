@@ -1,0 +1,12 @@
+ar/com/grupoesfera/pruebas/tragamonedas/TragamonedasTest.class
+ar/com/grupoesfera/pruebas/aceptacion/BasicoAceptacionIT.class
+ar/com/grupoesfera/pruebas/controladores/ControladorLoginTest.class
+ar/com/grupoesfera/pruebas/aceptacion/TestDeAceptacion.class
+ar/com/grupoesfera/pruebas/aceptacion/cucumber/TestDeAceptacionCucumber.class
+ar/com/grupoesfera/pruebas/controladores/ControladorRegistrarmeTest.class
+ar/com/grupoesfera/pruebas/aceptacion/cucumber/RegistrarmeCucumber.class
+ar/com/grupoesfera/pruebas/tragamonedas/TamborTest.class
+ar/com/grupoesfera/pruebas/aceptacion/cucumber/RunTestAceptacionCucumberIT.class
+ar/com/grupoesfera/pruebas/persistencia/RepositorioUsuarioTest.class
+ar/com/grupoesfera/pruebas/SpringTest.class
+ar/com/grupoesfera/pruebas/servicios/ServicioUsuarioTest.class
