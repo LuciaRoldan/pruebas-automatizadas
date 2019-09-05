@@ -1,0 +1,10 @@
+Implementar una Cerradura con las siguientes funcionalidades
+
+    abrir (en caso que se ingrese la clave correcta)
+    conocer si está abierta
+    saber si fue bloqueada (luego de N intentos fallidso consecutivos)
+    conocer la cantidad total de aperturas exitosas
+    conocer la cantidad total de aperturas fallidas
+    saber si está cerrada
+    cerrarla
+
