@@ -1,6 +1,0 @@
-dist: trusty
-jdk: openjdk11
-install: true
-script: 
-	- ./mvnw clean install
-	- ./mvnw verify
